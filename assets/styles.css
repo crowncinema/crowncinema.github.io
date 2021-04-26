@@ -24,19 +24,11 @@ div.head > nav {
  display: inline;
 }
 
-nav > a.btv {
+nav > img {
  transition: transform .2s;
 }
 
-nav > a.btv:hover {
- transform: scale(1.5);
-}
-
-nav > a.bfilm {
- transition: transform .2s;
-}
-
-nav > a.bfilm:hover {
+nav > img:hover {
  transform: scale(1.5);
 }
 
