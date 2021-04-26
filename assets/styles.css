@@ -24,12 +24,22 @@ div.head > nav {
  display: inline;
 }
 
-nav > img {
- transition: transform .2s;
+.cctv:hover {
+  transform: scale(1.2);
+}
+.cctv {
+  transition: all 1s;
+  transition-timing-function: cubic-bezier(.87,1,.6,.19);
+  transform-origin: 50% 50%;
 }
 
-nav > img:hover {
- transform: scale(1.5);
+.ccfilm:hover {
+  transform: scale(1.2);
+}
+.ccfilm {
+  transition: all 1s;
+  transition-timing-function: cubic-bezier(.87,1,.6,.19);
+  transform-origin: 50% 50%;
 }
 
 p.introduction {
@@ -38,8 +48,6 @@ p.introduction {
  float: left;
  color: gray;
 }
-
-
 
 * {box-sizing:border-box}
 
