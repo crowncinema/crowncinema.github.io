@@ -13,10 +13,15 @@
          <h1>Lucid Nonsense<h1>
     </header>
       <nav class="head_nav">
-        <a href="tv-shows.html"><img src="../assets/img/cctv.svg" height="100" width="100" class="cctv"></a>
+        <a href="tv-shows.html"><img src="../assets/img/cctv.svg" height="100" width="100" class="cctv" id="lnslogo"></a>
        </nav>
     </div>
         <img src="../assets/img/Lucid Nonsense.jpg">
    <script src="../assets/scripts/script.js"></script>
+
+   <script>
+     var rgb = getAverageRGB(document.getElementById('lnslogo'));
+     document.body.style.backgroundColor = 'rgb('+rgb.r+','+rgb.g+','+rgb.b+')';
+  </script>
   </body>
 </html>
