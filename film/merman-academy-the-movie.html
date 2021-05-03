@@ -23,7 +23,10 @@
      var rgb = getAverageRGB(document.getElementById('matmlogo'));
      document.body.style.backgroundImage = "none";
      document.body.style.backgroundColor = 'rgb('+rgb.r+','+rgb.g+','+rgb.b+')';
-
+     console.log(rgb.r);
+     console.log(rgb.g);
+     console.log(rgb.b);
+     
      function getAverageRGB(imgEl) {
 
      var blockSize = 5, // only visit every 5 pixels
