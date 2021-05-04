@@ -176,4 +176,5 @@ div > div > p.desc {
   font-size: 25px;
   color: #e6e6e6;
   opacity: 0.4;
+  font-style: oblique;
 }
