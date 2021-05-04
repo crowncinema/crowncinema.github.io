@@ -161,7 +161,7 @@ img {
   flex-basis: 40%;
 }
 
-p.desc {
+div > div > p.desc {
   padding-left: 20px;
   font-family: Tall Films;
 }
