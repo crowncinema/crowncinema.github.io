@@ -146,6 +146,15 @@ p.introduction {
   from {opacity: .4}
   to {opacity: 1}
 }
+div.logocontent {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+#lnslogo {
+  flex-basis: 40%;
+}
 
 div.entity_description {
   padding-left: 20px;
