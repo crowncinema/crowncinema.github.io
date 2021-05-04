@@ -30,9 +30,34 @@
             <span id="e_tv_eps"><strong>Episodes</strong>: 4</span>
         </div>
       </div>
+
+      <div class="szntab">
+        <button class="tablinks" onclick="openSeason(event, 'Season1')">London</button>
+      </div>
+
+      <div id="Season1" class="tabcontent">
+        <h3>Season 1</h3>
+        <p>4 Episodes</p>
+      </div>
+
+
+
    <script src="../assets/scripts/script.js"></script>
 
    <script>
+    function openSeason(evt, szn) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+  }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(szn).style.display = "block";
+  evt.currentTarget.className += " active";
+}
      var rgb = getAverageRGB(document.getElementById('lnslogo'));
      document.body.style.backgroundImage = "none";
      document.body.style.backgroundColor = 'rgb('+rgb.r+','+rgb.g+','+rgb.b+')';
