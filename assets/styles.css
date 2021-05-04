@@ -147,10 +147,14 @@ p.introduction {
   to {opacity: 1}
 }
 
-div.logocontent {
+.container {
   display: flex;
   align-items: center;
   justify-content: center
+}
+
+img {
+  max-width: 100%;
 }
 
 #lnslogo {
