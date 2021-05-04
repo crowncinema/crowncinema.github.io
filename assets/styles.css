@@ -7,6 +7,10 @@
  font-family: Tall Films;
  src: url('fonts/tall_films/Tall Film.ttf')
 }
+@font-face {
+  font-family: Alegreya Sans SC Thin Italic;
+  src: url('fonts/Alegreya_Sans_SC/AlegreyaSanSC-ThinItalic.ttf');
+}
 
 body {
  background-image: url('img/gradient.svg');
