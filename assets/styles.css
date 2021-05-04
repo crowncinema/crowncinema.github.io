@@ -161,7 +161,7 @@ img {
   flex-basis: 40%;
 }
 
-.entity_description {
+p.desc {
   padding-left: 20px;
   font-family: Tall Films;
 }
