@@ -162,6 +162,7 @@ img {
 }
 
 div > div > p.desc {
+  padding-left: 5px;
   font-family: Tall Films;
   font-size: 25px;
 }
