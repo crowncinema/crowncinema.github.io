@@ -178,3 +178,11 @@ div > div > p.desc {
   opacity: 0.4;
   font-style: oblique;
 }
+
+#e_tv_szns {
+  padding-left: 10px;
+}
+
+#e_tv_eps {
+  padding-left: 10px;
+}
