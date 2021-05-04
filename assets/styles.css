@@ -192,14 +192,14 @@ div > div > p.desc {
 }
 
 /* Style the tab */
-.tab {
+.szntab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
 }
 
 /* Style the buttons inside the tab */
-.tab button {
+.szntab button {
   background-color: inherit;
   float: left;
   border: none;
@@ -211,12 +211,12 @@ div > div > p.desc {
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
+.szntab button:hover {
   background-color: #ddd;
 }
 
 /* Create an active/current tablink class */
-.tab button.active {
+.szntab button.active {
   background-color: #ccc;
 }
 
