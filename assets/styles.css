@@ -212,12 +212,12 @@ div > div > p.desc {
 
 /* Change background color of buttons on hover */
 .szntab button:hover {
-  background-color: #ddd;
+  background-color: #4d2121;
 }
 
 /* Create an active/current tablink class */
 .szntab button.active {
-  background-color: #ccc;
+  background-color: #753434;
 }
 
 /* Style the tab content */
