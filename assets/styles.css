@@ -212,6 +212,7 @@ div > div > p.desc {
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
+  font-family: LemonMilkLI;
 }
 
 /* Change background color of buttons on hover */
@@ -225,7 +226,7 @@ div > div > p.desc {
 }
 
 /* Style the tab content */
-.tabcontent {
+.szntabcontent {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
