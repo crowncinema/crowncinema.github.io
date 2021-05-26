@@ -235,3 +235,13 @@ span#h_3362059 < a {
  text-decoration: none;
  font-family: Arial;
 }
+
+.tvthumb:hover {
+  transform: scale(2.2);
+}
+
+.tvthumb {
+  transition: all 1s;
+  transition-timing-function: cubic-bezier(.87,1,.6,.19);
+  transform-origin: 50% 50%;
+}
