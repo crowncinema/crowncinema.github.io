@@ -243,5 +243,5 @@ span#h_3362059 {
 .tvthumb {
   transition: all 1s;
   transition-timing-function: cubic-bezier(.87,1,.6,.19);
-  transform-origin: 50% 50%;
+  transform-origin: 100%;
 }
