@@ -245,3 +245,7 @@ span#h_3362059 {
   transition-timing-function: cubic-bezier(.87,1,.6,.19);
   transform-origin: 100%;
 }
+
+.tvthumb {
+ display: block;
+}
