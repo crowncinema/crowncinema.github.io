@@ -25,7 +25,7 @@ div.head {
 
 .head_nav {
  margin-bottom: 0;
- display: inline;
+ display: inline-block;
 }
 
 .cctv:hover {
@@ -41,6 +41,7 @@ div.head {
 .ccfilm:hover {
   transform: scale(1.2);
 }
+
 .ccfilm {
   transition: all 1s;
   transition-timing-function: cubic-bezier(.87,1,.6,.19);
@@ -50,6 +51,7 @@ div.head {
 .cchome:hover {
   transform: scale(1.2);
 }
+
 .cchome {
   transition: all 1s;
   transition-timing-function: cubic-bezier(.87,1,.6,.19);
