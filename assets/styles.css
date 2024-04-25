@@ -217,7 +217,7 @@ div > div > p.desc {
 }
 
 /* Create an active/current tablink class */
-.szntab button.active {
+.szntab button .active {
   background-color: #753434;
 }
 
@@ -239,6 +239,11 @@ span#h_3362096 {
   color: salmon;
   font-family: Arial;
 }
+
+div#media_content {
+   display: flex;
+}
+
 .tvthumb:hover {
   transform: scale(1.2);
   box-shadow: 0 4px 8px 9px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
