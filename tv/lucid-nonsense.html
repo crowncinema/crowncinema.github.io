@@ -121,13 +121,13 @@
 
       <div class="szntab">
         <button class="tablinks" onclick="openSeason(event, 'Season1')">Season 1</button>
-        <button class="tablinks">Season 2 is in the making 🤫...</button>
+        <button class="tablinks" onclick="openSeason(event, 'Season2')">Season 2</button>
       </div>
 
       <div id="Season1" class="szntabcontent">
         <h2>Season 1</h2>
         <p style="font-size: 35px;">4 Episodes</p>
-       <div id="media_content" class="container">
+       <div class="ent_content">
           <img src="../assets/img/mind games lns new thumb.JPG" id="lns101thumb" class="tvthumb" height="300" width="350">
           <img src="../assets/img/the warefare begins lns thumb.jpg" id="lns102thumb" class="tvthumb" height="300" width="350">
           <img src="../assets/img/BAF thumb.jpg" id="lns103thumb" class="tvthumb" height="300" width="350">
@@ -146,15 +146,16 @@
 
 <script>
     function openSeason(evt, szn) {
-      let i, tabcontent, tablinks;
+      let i, tabcontent, tablinks,szn;
       tabcontent = document.getElementsByClassName("szntabcontent");
       tablinks = document.getElementsByClassName("tablinks");
+      szn = document.getElementById(szn);
       
       for (i = 0; i < tablinks.length; i++) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
      }
       
-    document.getElementById(szn).style.display = "block";
+    szn.style.display = "block";
     evt.currentTarget.className += " active";
   }
      
