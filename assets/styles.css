@@ -7,6 +7,7 @@
  font-family: Tall Films;
  src: url('fonts/tall_films/Tall Film.ttf')
 }
+
 @font-face {
   font-family: Alegreya Sans SC Thin Italic;
   src: url('fonts/Alegreya_Sans_SC/AlegreyaSanSC-ThinItalic.ttf');
@@ -244,7 +245,7 @@ span#h_3362096 {
 }
 
 .ent_content {
-  display: flex-grid;
+  display: grid;
 }
 
 .tvthumb:hover {
@@ -259,6 +260,5 @@ span#h_3362096 {
 }
 
 .tvthumb {
- display: block;
- margin-bottom: 20px auto;
+ margin-bottom: 20px;
 }
