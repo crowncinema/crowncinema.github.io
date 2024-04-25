@@ -217,7 +217,7 @@ div > div > p.desc {
 }
 
 /* Create an active/current tablink class */
-.szntab button .active {
+.szntab button.active {
   background-color: #753434;
 }
 
