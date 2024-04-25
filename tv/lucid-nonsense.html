@@ -113,7 +113,7 @@
       <div id="Season1" class="szntabcontent">
         <h2>Season 1</h2>
         <p style="font-size: 35px;">4 Episodes</p>
-       <div id="media_content">
+       <div id="media_content" class="container">
           <img src="../assets/img/mind games lns new thumb.JPG" id="lns101thumb" class="tvthumb" height="300" width="350">
           <img src="../assets/img/the warefare begins lns thumb.jpg" id="lns102thumb" class="tvthumb" height="300" width="350">
           <img src="../assets/img/BAF thumb.jpg" id="lns103thumb" class="tvthumb" height="300" width="350">
@@ -122,22 +122,28 @@
         <span onclick="this.parentElement.style.display='none'" style="padding-left:5px;font-weight:bold;font-size:20px;">X</span>
       </div>
 
+   <div id="Season2" class="szntabcontent">
+     <h2>Season 2</h2>
+     <p style="font-size: 35px;">8 Episodes</p>
+     <span onclick="this.parentElement.style.display='none'" style="padding-left:5px;font-weight:bold;font-size:20px;">X</span>
+   </div>
+           
    <script src="../assets/scripts/script.js"></script>
 
-   <script>
+<script>
     function openSeason(evt, szn) {
       let i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("szntabcontent");
-      /* for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-  } */
       tablinks = document.getElementsByClassName("tablinks");
+      
       for (i = 0; i < tablinks.length; i++) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
+     }
+      
+    document.getElementById(szn).style.display = "block";
+    evt.currentTarget.className += " active";
   }
-  document.getElementById(szn).style.display = "block";
-  evt.currentTarget.className += " active";
-}
+     
      var rgb = getAverageRGB(document.getElementById('elogo'));
      document.body.style.backgroundImage = "none";
      document.body.style.backgroundColor = 'rgb('+rgb.r+','+rgb.g+','+rgb.b+')';
