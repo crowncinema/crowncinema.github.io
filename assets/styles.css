@@ -31,6 +31,7 @@ div.head > nav {
 .cctv:hover {
   transform: scale(1.2);
 }
+
 .cctv {
   transition: all 1s;
   transition-timing-function: cubic-bezier(.87,1,.6,.19);
@@ -170,18 +171,18 @@ img {
   max-width: 100%;
 }
 
-#elogo {
+#logocontent > #elogo {
   flex-basis: 40%;
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
   mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
-div > div > p.desc {
+p.desc {
   padding-left: 10px;
   font-family: Tall Films;
   font-size: 25px;
   color: #e6e6e6;
-  opacity: 0.4;
+  opacity: 0.5;
   font-style: oblique;
 }
 
@@ -238,10 +239,6 @@ span#h_3362059 {
 span#h_3362096 {
   color: salmon;
   font-family: Arial;
-}
-
-div#media_content {
-   display: flex;
 }
 
 .tvthumb:hover {
