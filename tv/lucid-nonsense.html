@@ -146,16 +146,15 @@
 
 <script>
     function openSeason(evt, szn) {
-      let i, tabcontent, tablinks,szn;
+      let i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("szntabcontent");
       tablinks = document.getElementsByClassName("tablinks");
-      szn = document.getElementById(szn);
       
       for (i = 0; i < tablinks.length; i++) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
      }
       
-    szn.style.display = "block";
+    document.getElementById(szn).style.display = "block";
     evt.currentTarget.className += " active";
   }
      
