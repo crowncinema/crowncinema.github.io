@@ -199,7 +199,6 @@ p.desc {
 .szntab {
   overflow: hidden;
   border: 1px solid #ccc;
-  border-bottom: none;
   background-color: #573333;
 }
 
@@ -240,6 +239,8 @@ p.desc {
   font-weight: bold;
   font-size: 20px;
   color: #ccc;
+  top: 0;
+  right: 0;
 }
 
 span#h_3362059 {
