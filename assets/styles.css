@@ -198,7 +198,8 @@ p.desc {
 /* Style the tab */
 .szntab {
   overflow: hidden;
-  border: 1px 1px 1px 0 solid #ccc;
+  border: 1px solid #ccc;
+  border-bottom: none;
   background-color: #573333;
 }
 
