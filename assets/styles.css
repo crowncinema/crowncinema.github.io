@@ -235,12 +235,13 @@ p.desc {
 }
 
 .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
   padding-left: 5px;
   font-weight: bold;
   font-size: 20px;
   color: #ccc;
-  top: 0;
-  right: 0;
 }
 
 span#h_3362059 {
