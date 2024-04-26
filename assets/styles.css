@@ -260,5 +260,6 @@ span#h_3362096 {
 }
 
 .tvthumb {
+ display: flex;
  margin-bottom: 20px;
 }
