@@ -198,7 +198,7 @@ p.desc {
 /* Style the tab */
 .szntab {
   overflow: hidden;
-  border: 1px solid #ccc;
+  border: 1px 1px 1px 0 solid #ccc;
   background-color: #573333;
 }
 
@@ -245,7 +245,7 @@ span#h_3362096 {
 }
 
 .ent_content {
-  display: grid;
+  display: inline-grid;
 }
 
 .tvthumb:hover {
@@ -260,6 +260,5 @@ span#h_3362096 {
 }
 
 .tvthumb {
- display: flex;
  margin-bottom: 20px;
 }
